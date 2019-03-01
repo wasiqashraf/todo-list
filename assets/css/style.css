@@ -1,0 +1,76 @@
+body{
+    font-family: 'Special Elite', cursive;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#container{
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5 );
+    width: 540px;
+    margin: 100px auto;
+    background: #f7f7f7;
+}
+
+h1{
+   background: #2980e9;
+   color: white;
+   margin: 0;
+   padding: 20px 0px 10px 10px; 
+   font-size: 24px;
+   font-weight: normal;
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+    height: 50px;
+    font-size: 16px;
+    background-color: #f7f7f7;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid rgba(0, 0, 0, 0.1 );
+    color: #2980e9;
+    font-weight: 500;
+    
+}
+
+input:focus{
+    border: 2px solid #2980e9;
+    outline: none;
+}
+
+.listStyle{
+    color: rgb(128, 128, 128);
+    text-decoration: line-through; 
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    background: white;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+
+li:nth-child(2n){
+    background: #f7f7f7;
+}
+
+/* Icons */
+.fa-trash{
+    float: right;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.fa-pencil-alt{
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
